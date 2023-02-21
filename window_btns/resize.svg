@@ -13,9 +13,12 @@
      id="defs2" />
   <g
      id="layer1">
-    <path
-       id="path10578-7"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264572;stroke-dasharray:none;stroke-opacity:1"
-       d="M 0.35806896,2.2877672 2.2877728,0.35817836 Z M 0.35812644,0.35812087 2.2877153,2.2878247 Z" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264553;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6820"
+       width="1.8521134"
+       height="1.8521137"
+       x="0.39685982"
+       y="0.39685982" />
   </g>
 </svg>
