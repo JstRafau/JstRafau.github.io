@@ -19,8 +19,12 @@
 		<title>JustWebsite</title>
     </head>
     <body>
+        <script>
+            //window.location.replace("https://old.rafau.pl");
+        </script>
         <div class="hoafoonyd">
-            <p>WIP</p>
+            <p class="wip">WIP</p>
+            <p>If you see this, something went wrong.<br>Visit <a href="https://old.rafau.pl">https://old.rafau.pl</a> :)</p>
         </div>
     </body>
     <style>
@@ -33,12 +37,20 @@
             height: 100vh;
             background: #151515;
             color: #fff;
-            display: grid;
-            place-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 4em;
+            
         }
         p {
-            font-size: 5em;
             font-family: monospace;
+            max-width: 60ch;
+            font-size: 2em;
+        }
+        .wip {
+            font-size: 5em;
         }
     </style>
 </html>
